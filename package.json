@@ -1,6 +1,6 @@
 {
-  "name": "bitcoind-rpc",
-  "description": "Bitcoin Client Library to connect to Bitcoin Core via RPC",
+  "name": "viacoind-rpc",
+  "description": "Viacoin Client Library to connect to Viacoin Core via RPC",
   "version": "0.7.0",
   "author": {
     "name": "Stephen Pair",
@@ -22,15 +22,18 @@
     {
       "name": "Braydon Fuller",
       "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Romano"
     }
   ],
   "keywords": [
-    "bitcoin",
+    "viacoin",
     "rpc"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcoind-rpc"
+    "url": "https://github.com/viacoin/viacoind-rpc"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -47,7 +50,7 @@
     "sinon": "^1.12.2"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcoind-rpc/issues"
+    "url": "https://github.com/viacoin/viacoind-rpc/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcoind-rpc"
+  "homepage": "https://github.com/viacoin/viacoind-rpc"
 }
