@@ -19,7 +19,7 @@ npm install viacoind-rpc
 
 ```javascript
 var run = function() {
-  var bitcore = require('bitcore');
+  var viacore = require('viacore');
   var RpcClient = require('viacoind-rpc');
 
   var config = {
@@ -56,7 +56,7 @@ var run = function() {
         }
 
         rawtxs.map(function (rawtx) {
-          var tx = new bitcore.Transaction(rawtx.result);
+          var tx = new viacore.Transaction(rawtx.result);
           console.log('\n\n\n' + tx.id + ':', tx.toObject());
         });
 
